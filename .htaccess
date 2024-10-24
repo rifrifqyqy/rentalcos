@@ -1,0 +1,9 @@
+RewriteEngine On 
+RewriteBase /rentalcos/
+
+# Aturan untuk menangani routing dinamis
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1 [L,QSA]
+RewriteRule ^costume/([0-9]+)$ index.php?page=costume&id=$1 [L,QSA]
+RewriteRule ^costume/([0-9]+)/checkout$ index.php?page=costume&id=$1&action=checkout [L,QSA]

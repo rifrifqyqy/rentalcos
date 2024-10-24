@@ -1,0 +1,36 @@
+.details-container {
+  margin-top: 30px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+
+  .details-image {
+    width: 400px;
+    height: auto;
+  }
+}
+
+.details-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.details-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.details-sizes {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.details-sizes li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.img-checkout {
+  width: 320px;
+  height: auto;
+}
